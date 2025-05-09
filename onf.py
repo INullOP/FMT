@@ -3,7 +3,7 @@ import subprocess
 import time
 
 TOKEN = "7812032063:AAHcpDZge7GoAFkgzVXMncdlyXn3eAX2A18"  # Полученный от @BotFather
-CHAT_ID = "7812032063"  # Узнать можно через @getmyid_bot
+CHAT_ID = "249127714"  # Узнать можно через @getmyid_bot
 
 def send_message(text):
     requests.post(f"https://api.telegram.org/bot{TOKEN}/sendMessage?chat_id={CHAT_ID}&text={text}")
